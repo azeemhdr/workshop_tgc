@@ -26,6 +26,10 @@ p{
 }
 header{
 	box-shadow: 0 0 4px rgb(207, 202, 202);
+	position: sticky;
+	top: 0;
+	z-index:1;
+	background-color: #fff;
 	
 }
 .container{
@@ -201,4 +205,8 @@ color: var(--secondaryColor);
 
 .course-content li{
 padding: 10px 0px 10px 20px;
+}
+
+.testimonial-section{
+	background-color: #f2e9f9;
 }
