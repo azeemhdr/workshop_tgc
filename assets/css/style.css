@@ -183,17 +183,18 @@ color: var(--secondaryColor);
 
 .cards{
 	flex:1;
-	background-color: #ddc9ecc2;
+	background-color: #f2e9f9;
 	border-radius: 8px;
 	box-shadow: 0 0 4px var(--backgroundColor);
 }
 
 .cards ul h3{
-	padding:0px 20px;
+	padding:20px 20px 0px;
+	text-align: center;
 }
 
 .subhead-course{
-	margin: 10px 0px!important;
+	margin: 0px!important;
 }
 
 .cards img{
@@ -204,9 +205,22 @@ color: var(--secondaryColor);
 }
 
 .course-content li{
-padding: 10px 0px 10px 20px;
+padding: 6px 0px 6px 20px;
 }
 
 .testimonial-section{
 	background-color: #f2e9f9;
+}
+/* .testimonial-img{
+	margin: auto;
+} */
+.testimonial-img img{
+	width: 150px;
+	height: 150px;
+	margin: auto;
+	border-radius: 50%;
+}
+
+.slick-prev::before, .slick-next::before{
+	color:var(--backgroundColor)
 }
