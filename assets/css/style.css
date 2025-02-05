@@ -232,3 +232,20 @@ padding: 6px 0px 6px 20px;
 	border-radius: 8px;
 	margin: 0px 10px;
 }
+
+.question-box{
+	margin-bottom: 20px;
+}
+
+.question,.answerPannel{
+	background-color: #f2f2f2;
+	padding: 20px;
+	color: var(--secondaryColor);
+	box-shadow: 0 0 4px var(--backgroundColor);
+	border-radius: 8px;
+	/* margin-bottom: 20px; */
+}
+.answerPannel{
+	color: #7e48a6;
+	display: none;
+}

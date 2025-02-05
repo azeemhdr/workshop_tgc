@@ -32,11 +32,11 @@ $(document).ready(function(){
     slidesToShow: 3,
     arrows:true,
     dots:true,
-    // prevArrow:
-    //   '<button type="button" class="slick-prev">←</button>',
-    // nextArrow:
-    //   '<button type="button" class="slick-next">→</button>',
   })
-})
+  
+  $(".question").click(function(){
+    $(this).next(".answerPannel").slideToggle("slow");
+  });
+});
 
 
