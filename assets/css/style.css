@@ -345,12 +345,14 @@ ul li {
 }
 
 .newsletter-form .f-email , .f-input-subscribe {
-  padding: 14px 0px;
+  padding: 14px 10px;
   border-radius: 32px 0px 0px 32px;
   width: 170px;
   border:1px solid var(--backgroundColor);
   flex:2;
   margin-top: 20px;
+  outline: none;
+  font-size: 14px;
 }
 
 .newsletter-form .f-input-subscribe{
