@@ -40,11 +40,11 @@ $(document).ready(function () {
           infinite: true,
           dots: true
       },
-      breakpoint:768,
-      settings:{
-        slidesToShow:2,
-        slidesToScroll:1,
-      }
+      // breakpoint:768,
+      // settings:{
+      //   slidesToShow:2,
+      //   slidesToScroll:1,
+      // }
   }],
   });
 
