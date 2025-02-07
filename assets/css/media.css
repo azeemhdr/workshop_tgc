@@ -17,6 +17,10 @@
 	flex-direction: column-reverse;
   }
 
+  .whyus-ul li{
+	padding: 12px 20px;
+  }
+
   .course-content{
 	flex-direction: column;
   }
