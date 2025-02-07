@@ -21,6 +21,10 @@
 	padding: 12px 20px;
   }
 
+  .read-more a{
+    margin-right: 0;
+  }
+
   .course-content{
 	flex-direction: column;
   }
