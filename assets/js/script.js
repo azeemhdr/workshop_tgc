@@ -11,32 +11,39 @@ $(document).ready(function () {
     // slidesToShow: 1,
     // slidesToScroll: 1,
     dots: true,
-  infinite: true,
-  speed: 500,
-  fade: true,
-  cssEase: 'linear',
+    infinite: true,
+    speed: 500,
+    fade: true,
+    cssEase: "linear",
     autoplay: true,
     autoplaySpeed: 2000,
-	arrows:true,
-    prevArrow:
-      '<button type="button" class="slick-prev">←</button>',
-    nextArrow:
-      '<button type="button" class="slick-next">→</button>',
+    arrows: true,
+    prevArrow: '<button type="button" class="slick-prev">←</button>',
+    nextArrow: '<button type="button" class="slick-next">→</button>',
   });
 });
 
-$(document).ready(function(){
+$(document).ready(function () {
   $(".instructor-wrapper").slick({
-    centerMode: true,
-    centerPadding: '60px',
+    // centerMode: true,
+    // centerPadding: "60px",
     slidesToShow: 3,
-    arrows:true,
-    dots:true,
-  })
-  
-  $(".question").click(function(){
+    slidesToScroll:1,
+    arrows: true,
+    dots: true,
+    responsive: [
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true
+      },
+  }],
+  });
+
+  $(".question").click(function () {
     $(this).next(".answerPannel").slideToggle("slow");
   });
 });
-
-

@@ -267,9 +267,16 @@ ul li {
   gap: 20px;
 }
 
-.from,
+.form,
 .location {
   flex: 1;
+}
+
+.form{
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
 }
 
 .input-wrapper input {

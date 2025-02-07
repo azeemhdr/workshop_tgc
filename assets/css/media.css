@@ -1,0 +1,35 @@
+@media (min-width: 360px) and (max-width:768px) {
+  .container {
+    width: 100%;
+    padding: 0px 20px;
+  }
+  .hero-heading{
+	font-size: 48px;
+  }
+  .hero-subhead{
+	font-size: 18px;
+  }
+  .video-btn img{
+	width: 50px;
+	inset: 40% 50%;
+  }
+  .why-us-wrapper{
+	flex-direction: column-reverse;
+  }
+
+  .course-content{
+	flex-direction: column;
+  }
+
+  .slick-next{
+	right: 0;
+  }
+  .slick-prev{
+	left: 0;
+	z-index: 1;
+  }
+
+  .conatct-wrapper{
+	flex-direction: column;
+  }
+}
