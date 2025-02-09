@@ -47,8 +47,23 @@ $(document).ready(function () {
       // }
   }],
   });
-
+  // FAQ==============
   $(".question").click(function () {
     $(this).next(".answerPannel").slideToggle("slow");
+  });
+
+  // modal form ========
+  setTimeout(function(){
+    $('.modal').fadeIn();
+  },4000);
+
+  $('.read-more a').click(function(e){
+    e.preventDefault();
+    $('.modal').fadeIn();
+  })
+
+  $('.modalForm-close a').click(function(e){
+    e.preventDefault();
+    $('.modal').fadeOut();
   });
 });

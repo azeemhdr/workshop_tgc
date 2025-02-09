@@ -394,3 +394,30 @@ background-color: var(--backgroundColor);
 color: #fff;
 font-weight: 600;
 }
+
+.modal{
+  position: fixed;
+  background-color: #0000005e;
+  inset: 0 0 0 0;
+  z-index: 100;
+  display: none;
+}
+
+.modal-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.modalForm{
+  background-color: #f2f2f2;
+  box-shadow: 0 0 4px var(--paraColor);
+  padding: 20px;
+  width: 500px;
+}
+.modalForm-close, .modalForm-close a{
+  text-align: end;
+  color:var(--paraColor);
+  font-weight: 500;
+  font-size: 24px;
+}
